@@ -1,7 +1,7 @@
 About tip
 =========
 
-Home: https://github.com/IM-USAF/tip
+Home: https://github.com/309thEDDGE/tip.git
 
 Package license: GPL-3.0-only
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tip-feedstock/b
 
 Summary: Fast IRIG 106 Chapter 10 CLI parser/translator
 
-Development: https://github.com/IM-USAF/tip
+Development: https://github.com/309thEDDGE/tip.git
 
 Parse IRIG 106 Chapter 10 and export to Parquet files as intermediate data stores.
 In a second (translation) stage, convert data in an intermediate data store to Engineering Units
@@ -220,4 +220,6 @@ Feedstock Maintainers
 =====================
 
 * [@IM-USAF](https://github.com/IM-USAF/)
+* [@JR-USAF](https://github.com/JR-USAF/)
+* [@RR-USAF](https://github.com/RR-USAF/)
 
