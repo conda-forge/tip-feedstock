@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/IM-USAF/tip/archive/refs/tags/v{{ version }}.tar.gz
+  url: https://github.com/309thEDDGE/tip/archive/refs/tags/v{{ version }}.tar.gz
   sha256: b1db8a04d2cfad8443e02f96e80703777dd99412d0d6772d7a59221f67cb3470
 
 build:
@@ -51,7 +51,7 @@ test:
     - validate_yaml -h
 
 about:
-  home: https://github.com/IM-USAF/tip
+  home: https://github.com/309thEDDGE/tip.git
   summary: 'Fast IRIG 106 Chapter 10 CLI parser/translator'
   description: |
     Parse IRIG 106 Chapter 10 and export to Parquet files as intermediate data stores. 
@@ -61,8 +61,10 @@ about:
   license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE
-  dev_url: https://github.com/IM-USAF/tip
+  dev_url: https://github.com/309thEDDGE/tip.git
 
 extra:
   recipe-maintainers:
     - IM-USAF
+    - RR-USAF
+    - JR-USAF
