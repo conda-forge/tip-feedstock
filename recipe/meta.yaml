@@ -11,7 +11,7 @@ source:
 
 build:
   skip: true  # [win and vc<14 or osx]
-  number: 2
+  number: 3
 
 requirements:
   build:
