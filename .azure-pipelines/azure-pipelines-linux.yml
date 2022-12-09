@@ -8,8 +8,8 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
-      linux_64_arrow_cpp6.0.2:
-        CONFIG: linux_64_arrow_cpp6.0.2
+      linux_64_arrow_cpp10.0.1:
+        CONFIG: linux_64_arrow_cpp10.0.1
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_arrow_cpp7.0.1:
