@@ -1,5 +1,5 @@
 {% set name = "tip" %}
-{% set version = "1.0.5" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/309thEDDGE/tip/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: b1db8a04d2cfad8443e02f96e80703777dd99412d0d6772d7a59221f67cb3470
+  sha256: 648a43540787e823d350e044dfbc10d79aabe0570c8c0a280aca9ad585bf1cbd   
 
 build:
   skip: true  # [win and vc<14 or osx]
-  number: 3
+  number: 0
 
 requirements:
   build:
@@ -54,13 +54,12 @@ about:
   home: https://github.com/309thEDDGE/tip.git
   summary: 'Fast IRIG 106 Chapter 10 CLI parser/translator'
   description: |
-    Parse IRIG 106 Chapter 10 and export to Parquet files as intermediate data stores. 
-    In a second (translation) stage, convert data in an intermediate data store to Engineering Units 
+    Parse IRIG 106 Chapter 10 and export parsed, raw data to Parquet.
+    In a second (translation) stage, convert raw data to Engineering Units 
     (EU, ft, m/s, etc.) given an input file which conveys Interface Control Document 
     (ICD) data.  
-  license: GPL-3.0-only
-  license_family: GPL
-  license_file: LICENSE
+  license: GPL-3.0-only AND BSD-4-Clause-UC
+  license_file: licenses/
   dev_url: https://github.com/309thEDDGE/tip.git
 
 extra:
