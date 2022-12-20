@@ -11,8 +11,8 @@ Summary: Fast IRIG 106 Chapter 10 CLI parser/translator
 
 Development: https://github.com/309thEDDGE/tip.git
 
-Parse IRIG 106 Chapter 10 and export to Parquet files as intermediate data stores.
-In a second (translation) stage, convert data in an intermediate data store to Engineering Units
+Parse IRIG 106 Chapter 10 and export parsed, raw data to Parquet.
+In a second (translation) stage, convert raw data to Engineering Units
 (EU, ft, m/s, etc.) given an input file which conveys Interface Control Document
 (ICD) data.
 
