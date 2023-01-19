@@ -11,12 +11,11 @@ source:
 
 build:
   skip: true  # [win and vc<14 or osx]
-  number: 0
+  number: 1
 
 requirements:
   build:
     - {{ compiler('cxx') }}
-    - make 4.*  # [unix]
     - ninja 1.*
     - cmake 3.*
     - pkgconfig 1.*
@@ -25,19 +24,17 @@ requirements:
     - arrow-cpp
     - spdlog
     - yaml-cpp
-    - gmock
+    - gmock 
     - gtest
     - libtins
     - fmt
 
   run:
-    - {{ pin_compatible('arrow-cpp', max_pin='x') }}
-    - {{ pin_compatible('spdlog', max_pin='x') }}
-    - {{ pin_compatible('yaml-cpp', max_pin='x') }}
-    - {{ pin_compatible('gmock', max_pin='x') }}
-    - {{ pin_compatible('gtest', max_pin='x') }}
-    - {{ pin_compatible('libtins', max_pin='x') }}
-    - {{ pin_compatible('fmt', max_pin='x') }}
+    # Do not include spdlog, yaml-cpp, arrow-cpp, libtins, fmt
+    # because those packages use run_exports to automatically
+    # include runtime requirements.
+    - {{ pin_compatible('gmock', max_pin='x.x') }}
+    - {{ pin_compatible('gtest', max_pin='x.x') }}
 
 test:
   commands:
