@@ -33,8 +33,8 @@ requirements:
     # Do not include spdlog, yaml-cpp, arrow-cpp, libtins, fmt
     # because those packages use run_exports to automatically
     # include runtime requirements.
-    - {{ pin_compatible('gmock', exact=True) }}
-    - {{ pin_compatible('gtest', exact=True) }}
+    - {{ pin_compatible('gmock', max_pin='x.x.x') }}
+    - {{ pin_compatible('gtest', max_pin='x.x.x') }}
 
 test:
   commands:
