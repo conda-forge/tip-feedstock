@@ -1,11 +1,11 @@
-About tip
-=========
+About tip-feedstock
+===================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tip-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/309thEDDGE/tip.git
 
 Package license: GPL-3.0-only AND BSD-4-Clause-UC
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tip-feedstock/blob/main/LICENSE.txt)
 
 Summary: Fast IRIG 106 Chapter 10 CLI parser/translator
 
@@ -49,10 +49,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_arrow_cpp8.0.1</td>
+              <td>linux_64_arrow_cpp12.0.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18071&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_arrow_cpp8.0.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_arrow_cpp12.0.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -77,10 +77,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_arrow_cpp8.0.1</td>
+              <td>win_64_arrow_cpp12.0.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18071&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=win&configuration=win%20win_64_arrow_cpp8.0.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=win&configuration=win%20win_64_arrow_cpp12.0.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
