@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/309thEDDGE/tip/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: BBCE23013DE0F2DE67FB157B220003D3EE7050A70E53AEEE049B20A1D0723228
+  sha256: bbce23013de0f2de67fb157b220003d3ee7050a70e53aeee049b20a1d0723228 
 
 build:
   skip: true  # [win and vc<14 or osx]
