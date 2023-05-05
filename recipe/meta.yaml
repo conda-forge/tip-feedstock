@@ -6,8 +6,9 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/309thEDDGE/tip/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 648a43540787e823d350e044dfbc10d79aabe0570c8c0a280aca9ad585bf1cbd   
+  # url: https://github.com/309thEDDGE/tip/archive/refs/tags/v{{ version }}.tar.gz
+  path: /home/isaac/repos/github/tip
+  # sha256: 648a43540787e823d350e044dfbc10d79aabe0570c8c0a280aca9ad585bf1cbd   
 
 build:
   skip: true  # [win and vc<14 or osx]
