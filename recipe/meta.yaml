@@ -1,14 +1,13 @@
 {% set name = "tip" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  # url: https://github.com/309thEDDGE/tip/archive/refs/tags/v{{ version }}.tar.gz
-  path: /home/isaac/repos/github/tip
-  # sha256: 648a43540787e823d350e044dfbc10d79aabe0570c8c0a280aca9ad585bf1cbd   
+  url: https://github.com/309thEDDGE/tip/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 1ab1445d975eb71f7bdf7695c4acca4a9ff025201cb6846085bdc43598be3146   
 
 build:
   skip: true  # [win and vc<14 or osx]
