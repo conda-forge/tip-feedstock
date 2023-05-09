@@ -1,11 +1,11 @@
-About tip
-=========
+About tip-feedstock
+===================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tip-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/309thEDDGE/tip.git
 
 Package license: GPL-3.0-only AND BSD-4-Clause-UC
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tip-feedstock/blob/main/LICENSE.txt)
 
 Summary: Fast IRIG 106 Chapter 10 CLI parser/translator
 
