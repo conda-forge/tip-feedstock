@@ -1,5 +1,5 @@
 {% set name = "tip" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/309thEDDGE/tip/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 648a43540787e823d350e044dfbc10d79aabe0570c8c0a280aca9ad585bf1cbd   
+  sha256: ca6c7f4737b93b4a639a94506e3922e33c179933c26dc0d5a7029d96ff919911
 
 build:
   skip: true  # [win and vc<14 or osx]
-  number: 3
+  number: 0
 
 requirements:
   build:
@@ -24,7 +24,7 @@ requirements:
     - arrow-cpp
     - spdlog
     - yaml-cpp
-    - gmock 
+    - gmock
     - gtest
     - libtins
     - fmt
@@ -49,7 +49,7 @@ test:
 
 about:
   home: https://github.com/309thEDDGE/tip.git
-  summary: 'Fast IRIG 106 Chapter 10 CLI parser/translator'
+  summary: Fast IRIG 106 Chapter 10 CLI parser/translator
   description: |
     Parse IRIG 106 Chapter 10 and export parsed, raw data to Parquet.
     In a second (translation) stage, convert raw data to Engineering Units 
