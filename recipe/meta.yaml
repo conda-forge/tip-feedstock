@@ -1,5 +1,5 @@
 {% set name = "tip" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/309thEDDGE/tip/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: ca6c7f4737b93b4a639a94506e3922e33c179933c26dc0d5a7029d96ff919911
+  sha256: 2aedafd3246013c98ba3d018c122ab926f0a6281dea5c4543e3c38c1ba0f1336
 
 build:
   skip: true  # [win and vc<14 or osx]
-  number: 5
+  number: 0
 
 requirements:
   build:
@@ -30,11 +30,8 @@ requirements:
     - fmt
 
   run:
-    # Do not include spdlog, yaml-cpp, arrow-cpp, libtins, fmt
-    # because those packages use run_exports to automatically
-    # include runtime requirements.
-    - {{ pin_compatible('gmock', max_pin='x.x.x') }}
-    - {{ pin_compatible('gtest', max_pin='x.x.x') }}
+    - gmock
+    - gtest
 
 test:
   commands:
