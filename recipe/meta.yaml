@@ -24,7 +24,7 @@ requirements:
     - arrow-cpp
     - spdlog
     - yaml-cpp
-    - gmock 
+    - gmock
     - gtest
     - libtins
     - fmt
