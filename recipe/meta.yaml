@@ -21,7 +21,7 @@ requirements:
     - pkgconfig 1.*
 
   host:
-    - arrow-cpp
+    - libarrow
     - spdlog
     - yaml-cpp
     - gmock
