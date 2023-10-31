@@ -1,5 +1,3 @@
-arrow_cpp:
-- 11.0.0
 channel_sources:
 - conda-forge
 channel_targets:
@@ -8,6 +6,8 @@ cxx_compiler:
 - vs2019
 fmt:
 - '10'
+libarrow:
+- 10.0.1
 spdlog:
 - '1.12'
 target_platform:
