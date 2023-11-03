@@ -1,5 +1,5 @@
 {% set name = "tip" %}
-{% set version = "3.0.2" %}
+{% set version = "3.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/309thEDDGE/tip/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 4f204477b9722c8ffc5e3c242e490a97f430c1738920541a122ac7e3b9c8c97d
+  sha256: d8ba5a997b4c8354480037ff3e80a65166bb8eeb74b13d59baa5382290aabe57 
  
 build:
   skip: true  # [win and vc<14 or osx]
