@@ -35,59 +35,59 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_arrow_cpp10.0.1</td>
+              <td>linux_64_libarrow10.0.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18071&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_arrow_cpp10.0.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libarrow10.0.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_arrow_cpp11.0.0</td>
+              <td>linux_64_libarrow11.0.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18071&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_arrow_cpp11.0.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libarrow11.0.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_arrow_cpp12</td>
+              <td>linux_64_libarrow12</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18071&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_arrow_cpp12" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libarrow12" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_arrow_cpp13</td>
+              <td>linux_64_libarrow13</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18071&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_arrow_cpp13" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libarrow13" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_arrow_cpp10.0.1</td>
+              <td>win_64_libarrow10.0.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18071&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=win&configuration=win%20win_64_arrow_cpp10.0.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libarrow10.0.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_arrow_cpp11.0.0</td>
+              <td>win_64_libarrow11.0.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18071&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=win&configuration=win%20win_64_arrow_cpp11.0.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libarrow11.0.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_arrow_cpp12</td>
+              <td>win_64_libarrow12</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18071&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=win&configuration=win%20win_64_arrow_cpp12" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libarrow12" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_arrow_cpp13</td>
+              <td>win_64_libarrow13</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18071&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=win&configuration=win%20win_64_arrow_cpp13" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tip-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libarrow13" alt="variant">
                 </a>
               </td>
             </tr>
