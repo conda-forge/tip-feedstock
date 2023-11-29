@@ -1,6 +1,11 @@
 {% set name = "tip" %}
 {% set version = "3.0.3" %}
 
+# appease linter
+{% if libarrow is undefined %}
+{% set libarrow = "14" %}
+{% endif %}
+
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -22,6 +27,10 @@ requirements:
 
   host:
     - libarrow
+    # arrow got split into more fine-grained packages as of v14
+    {% if libarrow.split(".")[0] | int >= 14 %}
+    - libparquet
+    {% endif %}
     - spdlog
     - yaml-cpp
     - gmock
