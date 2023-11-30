@@ -7,7 +7,7 @@ cxx_compiler:
 fmt:
 - '10'
 libarrow:
-- 10.0.1
+- '14'
 spdlog:
 - '1.12'
 target_platform:
