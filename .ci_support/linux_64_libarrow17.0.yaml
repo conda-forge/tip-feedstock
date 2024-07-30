@@ -19,7 +19,7 @@ fmt:
 libarrow:
 - '17.0'
 spdlog:
-- '1.13'
+- '1.14'
 target_platform:
 - linux-64
 zip_keys:
