@@ -1,5 +1,5 @@
 {% set name = "tip" %}
-{% set version = "3.0.3" %}
+{% set version = "3.0.4" %}
 
 # appease linter
 {% if libarrow is undefined %}
@@ -12,11 +12,11 @@ package:
 
 source:
   url: https://github.com/309thEDDGE/tip/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: d8ba5a997b4c8354480037ff3e80a65166bb8eeb74b13d59baa5382290aabe57 
+  sha256: c32294cc80446a56857942e5a74861de18e5b8854b4c52ea3360ac8c6377e8fa
  
 build:
   skip: true  # [win and vc<14 or osx]
-  number: 8
+  number: 0
 
 requirements:
   build:
