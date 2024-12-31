@@ -19,6 +19,6 @@ fmt:
 libarrow:
 - '15'
 spdlog:
-- '1.14'
+- '1.15'
 target_platform:
 - linux-64
