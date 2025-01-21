@@ -17,7 +17,7 @@ docker_image:
 fmt:
 - '11'
 libarrow:
-- '18.1'
+- '19.0'
 spdlog:
 - '1.15'
 target_platform:

@@ -9,7 +9,7 @@ cxx_compiler:
 fmt:
 - '11'
 libarrow:
-- '15'
+- '19.0'
 spdlog:
 - '1.15'
 target_platform:
