@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tip-feedstock/b
 
 Home: https://github.com/309thEDDGE/tip.git
 
-Package license: GPL-3.0-only AND BSD-4-Clause-UC
+Package license: GPL-3.0-or-later
 
 Summary: Fast IRIG 106 Chapter 10 CLI parser/translator
 
@@ -15,7 +15,6 @@ Parse IRIG 106 Chapter 10 and export parsed, raw data to Parquet.
 In a second (translation) stage, convert raw data to Engineering Units
 (EU, ft, m/s, etc.) given an input file which conveys Interface Control Document
 (ICD) data.
-
 
 Current build status
 ====================
@@ -220,6 +219,5 @@ Feedstock Maintainers
 =====================
 
 * [@IM-USAF](https://github.com/IM-USAF/)
-* [@JR-USAF](https://github.com/JR-USAF/)
 * [@RR-USAF](https://github.com/RR-USAF/)
 
