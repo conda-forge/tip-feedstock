@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tip
-  version: 3.0.5
+  version: 3.0.6
   libarrow: 14
 
 package:
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://github.com/309thEDDGE/tip/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 89f91790a67325966a922df6ab81cb72ae6654540b04c8f6cfaba10e3520c9c8
+  sha256: a5f28143180d733ff6fb826e0d262294ad3072bab2c6fd77e89fafadbf0b2ba6
 
 build:
-  number: 2
+  number: 0
   skip: win and vc<14 or osx
 
 requirements:
