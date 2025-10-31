@@ -39,7 +39,8 @@ requirements:
 
 tests:
   - script:
-      - tests
+      # Filter six tests which output non-UTF8 chars which causes a rattler-build error
+      - tests --gtest_brief=1 --gtest_filter=-ArgumentValidationTest.*NotUTF8
       - tip parse -h
       - tip translate 1553 -h
       - tip translate arinc429 -h
