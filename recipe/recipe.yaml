@@ -15,7 +15,7 @@ source:
 
 build:
   number: 2
-  skip: win and vc<14 or osx
+  skip: osx
 
 requirements:
   build:
