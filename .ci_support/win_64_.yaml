@@ -8,8 +8,6 @@ cxx_compiler:
 - vs2022
 fmt:
 - '12.1'
-libarrow:
-- '21.0'
 spdlog:
 - '1.17'
 target_platform:
