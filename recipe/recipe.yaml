@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://github.com/309thEDDGE/tip/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 8b0b396b5a0ea423895de658fd006cc8bff5b881a6a2618b93ce80f95aa44858 
+  sha256: 8b0b396b5a0ea423895de658fd006cc8bff5b881a6a2618b93ce80f95aa44858
 
 build:
-  number: 2
+  number: 3
   skip: osx
 
 requirements:
